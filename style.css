@@ -57,7 +57,7 @@ body {
     margin-bottom: 10vh;
 }
 .texts__container {
-    width: 80%;
+    width: 100%;
     overflow: hidden;
 }
 .texts  {
@@ -198,9 +198,6 @@ body {
     }
     .text {
         font-size: 5vw;
-    }
-    p {
-        text-align: center;
     }
     .dot {
         width: 6vw;
