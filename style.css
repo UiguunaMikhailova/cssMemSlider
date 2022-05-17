@@ -81,9 +81,8 @@ body {
     justify-content: flex-end;
 }
 .dot {
-    width: 3.5vw;
-    height: 3.5vw;
-    margin: 0.2rem;
+    width: 4.5vw;
+    height: 4.5vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -100,11 +99,11 @@ body {
 .dot:hover .dot-mini{
     background-color: rgb(231, 222, 238);
     border: solid 0.1rem rgb(231, 222, 238);
-    transform: scale(1.3);
 }
 .dot:active .dot-mini{
     background-color: rgb(133, 133, 133);
-    border: solid 0.1rem rgb(133, 133, 133);
+    border: solid 0.08rem rgb(133, 133, 133);
+    transform: scale(1.3);
 }
 #mem1:checked ~ .dots-text > .dots > .dot > .dot1 {
     background-color: transparent;
@@ -175,8 +174,8 @@ body {
         font-size: 2.2rem;
     }
     .dot {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
     }
     .dot-mini {
         width: 2rem;
@@ -200,8 +199,8 @@ body {
         font-size: 5vw;
     }
     .dot {
-        width: 6vw;
-        height: 6vw;
+        width: 7vw;
+        height: 7vw;
     }
     .dot-mini {
         width: 5vw;
